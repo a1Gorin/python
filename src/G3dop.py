@@ -6,6 +6,6 @@ zero = 0
 def fivehundred(zero):
     for i in range(zero, 501):
         zero = zero + i
-    print(zero)
+    return(zero)
 rez1 = fivehundred(zero)
 print(rez1)
